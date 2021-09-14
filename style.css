@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home {
+    min-height: 100vh;
+    min-width: 100%;
+}
+
+#myNav {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    background: none;
+}
+
+.nav-item .nav-link {
+    color: #fff !important;
+    font-size: 1.2rem;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.bi-list,
+.bi-x {
+    color: #fff;
+    font-size: 2.1rem;
+}
+
+.navbar-dark .navbar-toggler {
+    color: unset !important;
+    border: none !important;
+    transition: transform 5s !important;
+}
+
+.navbar-toggler:hover {
+    text-decoration: none;
+    border: none;
+}
+
+.my-carousel {
+    position: absolute;
+    top: 0;
+}
+
+#carouselCaption {
+    top: 50%;
+}
+
+.carousel-indicators [data-bs-target] {
+    height: 10px !important;
+    width: 10px !important;
+    border-radius: 50%;
+}
+
+.servicesImgs {
+    width: 21.1875rem;
+    height: 21.1875rem;
+}
+
+.serviceTitle {
+    padding-top: 21px;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+#sImg1 {
+    height: 226.03px;
+}
+
+#serBDTitle {
+    padding-top: 71.97px;
+}
+
+.cOA {
+    width: 100%;
+    max-height: 25em;
+    background-color: #f3603c;
+    color: #ffffff;
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: #1d1e25;
+    color: #ffffff;
+}
+
+#btnSec4 {
+    background: #ffffff;
+    box-shadow: 0px 15px 15px -10px #db5943;
+    color: #f3603c;
+    font-size: 13px;
+    width: 137px;
+    height: 44px;
+    border-radius: 22px;
+    border: none;
+}
+
+#btnSec4:hover {
+    opacity: 0.5;
+}
+
+.footer-links ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer-links ul li .f-a-links {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer-links ul li .f-a-links:hover {
+    color: #f3603c;
+}
+
+.social-icons a {
+    color: #ffffff;
+}
+
+.social-icons a:hover {
+    color: #f3603c;
+}
+
+#inpEmail {
+    border-radius: 20px;
+    width: 250px;
+    height: 44px;
+    line-height: 0px;
+    text-indent: 15px;
+}
+
+.inpBtnGo {
+    width: 80px;
+    height: 44px;
+    border-radius: 20px;
+    border: none;
+    background: #f3603c;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.news-letter textarea:focus,
+input:focus {
+    outline: none;
+}
+
+@media(max-width: 768px) {
+    .home {
+        height: fit-content;
+        width: auto;
+    }
+    .carouselSlides {
+        height: 50vh;
+    }
+}
+
+@media(min-width: 768px) {
+    .carousel-item {
+        height: 100vh;
+    }
+}
